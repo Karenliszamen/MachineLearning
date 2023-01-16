@@ -27,7 +27,7 @@ for i in range(len(dataset['HeartDisease'])): #For loup de 918 iteraciones.
 
 
 ChestPainTypeNumeric=[] #Creamos unas listas para convertirlas a valores numericos
-for i in range(len(dataset['HeartDisease'])): #For loup de 918 iteraciones.
+for i in range(len(dataset['HeartDisease'])): #For de 918 iteraciones.
     if dataset ['ChestPainType'][i]=='ATA':
         ChestPainTypeNumeric.append(0)
     elif dataset ['ChestPainType'][i]=='NAP':
